@@ -3,6 +3,9 @@ function(rmas, bootsp=1000){
    x<-rmas # TODO: change x for rmas in all function
   if(class(x)[1]!="rmas") stop("decline requires an rmas object
                               (i.e. a trajectory simulation from projectn)")
+  if(length(names(x))>0){ # bifurcación provisional para separar rmas de projectn y de projectn2
+         x<- x$vn
+  }
   abundances <- sapply(x, function(rmas) apply(rmas,2,sum))
   #minimum abundance attained in each of the replications in the object rmas
   abundances.min <-round(apply(abundances[-1,],2,min))

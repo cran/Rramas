@@ -1,8 +1,12 @@
 explosion <-
 function(rmas, bootsp=1000){
   x<-rmas # TODO: change x for rmas in all function
-  if(class(x)[1]!="rmas") stop("explosion requires an rmas object
+   if(class(x)[1]!="rmas") stop("explosion requires an rmas object
                               (i.e. a trajectory simulation from projectn)")
+   if(length(names(x))>0){ # bifurcación provisional para separar rmas de projectn y de projectn2
+         x<- x$vn
+  }
+   
   abundances <- sapply(x, function(rmas) apply(rmas,2,sum))
   abundances.min <-round(apply(abundances[-1,],2,max))
   abminbot <- as.list(1:bootsp)
