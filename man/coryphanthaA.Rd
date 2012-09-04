@@ -22,6 +22,7 @@ Transition matrices of three  \emph{Coryphantha robbinsorum} populations.
 
   Gurevitch, J., Scheiner, S. M. and Fox, G. A. 2002.
   \emph{The Ecology of Plants}. Sinauer.
+
   Schmalzel, R.J., F.W. Reichenbacher, and S. Rutman. 1995.
   Demographic study of the rare \emph{Coryphantha robbinsorum} (Cactaceae) 
   in southeastern Arizona. \emph{Madrono} 42:332-348.

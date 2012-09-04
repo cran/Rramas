@@ -80,6 +80,7 @@ If management is required, a vector or matrix of magement actions  should be pro
 }
 \value{
 \code{project1}, \code{estdemo} and \code{estambi} return a vector of stage abundances with the same length that \code{v0}.
+
 \code{projectn} return an object of class \code{rmas}, basically a list with four elements: \code{vn}, with length = (\code{nrep}) where each of its elements represents a replicate simulation and consist of a matrix of dimensions \code{[lengtth(v0), time]} representing the abundance of each stage at each time. If the simulation included management actions, \code{harvest} will be a list of length (\code{nrep}) where each of its elements represents the trajectory of harvest in a replicate simulation and consist of a matrix of dimensions \code{[lengtth(v0), time]} representing the number of individuals extracted of each stage at each time. The other two elements, \code{mat} and \code{management},  are respectively the transition matrix and the managenet matrix employed in the simulations.
 The \code{plot} method will draw the demographic trajectory of the population. By default (\code{sum = TRUE, mean=FALSE}) it will plot the abundance of the whole population (i.e. the the sum of abundances in each stage) vs. time. If nrep >1 it will plot together the trajectory of each replicated population. If ( \code{sum = TRUE, mean=TRUE}) it will plot the mean of all repplicated populations. If (\code{sum = FALSE, mean=TRUE}) it wil plot the abundance (or the mean abundance in all the replications) of each stage vs. time.
 
@@ -89,7 +90,7 @@ The \code{summary} and \code{plot.summary} methods will print a table and draw a
 \references{
 
 Akcakaya, H. R., Burgman, M. A. and Ginzburg L.R. 1999. \emph{Applied Population Ecology}. Sinauer.
-Caswell, H. 2003. \emph{Matrix Population Models: Construction, Analysis, and Interpretation }. SInauer. 
+Caswell, H. 2003. \emph{Matrix Population Models: Construction, Analysis, and Interpretation }. Sinauer. 
 
 }
 \author{
@@ -140,8 +141,9 @@ Marcelino de la Cruz \email{marcelino.delacruz@upm.es}
      summary(simu20.eds)
      
      # Example of management actions
-     #    each time step, 10 individuals will be added to the first stage ,10 individuals will be 
-     #    added to the second stage, and 50 percent of the individuals in the third stage will be extracted
+     #    each time step, 10 individuals will be added to the first stage ,10 individuals  
+     #    will be added to the second stage, and 50 percent of the individuals in the 
+     #    third stage will be extracted
      
         man <- c(10, 10, -0.5)
         p1 <- projectn(v0 = c(100, 100,100), mat= coryphanthaA, management=man)

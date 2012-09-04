@@ -1,0 +1,19 @@
+# Export regular functions
+export("as.tmatrix", "decline", "estambi", "estdemo", "explosion", "project1", "projectn")
+
+# Import all packages listed as Imports or Depends
+# ToDo: "importFrom" only required functions 
+import(diagram)
+
+## Registration of S3 methods
+import(stats)
+import(graphics)
+S3method(plot, rmas)
+S3method(plot, summary.rmas)
+S3method(plot, summary.rmas.risk)
+S3method(plot, tmatrix)
+S3method(print, summary.tmatrix)
+S3method(print, tmatrix)
+S3method(summary, rmas)
+S3method(summary, rmas.risk)
+S3method(summary, tmatrix)

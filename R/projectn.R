@@ -28,7 +28,7 @@ function (v0, mat, matsd = NULL, estamb = FALSE, estdem = FALSE,
 		v.0 <- v # v antes del manejo
 		if(!is.null  (management)) {
 		  #if mangement is a vector, transform it to a column matrix
-                   management <- matrix(management, nr=dim(mat)[1])
+                   management <- matrix(management, nrow=dim(mat)[1])
 		   # apply management actions sequentialy
 		   for ( j in 1:dim(management)[2]){
 		         # which stages are managed on a proportion or on a individual basis

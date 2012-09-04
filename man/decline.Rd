@@ -43,7 +43,7 @@ The methods \code{summary} and \code{plot.summary} summarize the results and pri
 }
 \references{
 Akcakaya, H. R., Burgman, M. A. and Ginzburg L.R. 1999. \emph{Applied Population Ecology}. Sinauer.
-Caswell, H. 2003. \emph{Matrix Population Models: Construction, Analysis, and Interpretation }. SInauer. 
+Caswell, H. 2003. \emph{Matrix Population Models: Construction, Analysis, and Interpretation }. Sinauer. 
 }
 
 \author{
