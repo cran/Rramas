@@ -1,6 +1,6 @@
 plot.tmatrix <-
 function(x, ...){
-   require(diagram)
+   #require(diagram)
    main <- deparse(substitute(x))
    di <- dim(x)[1]
    cosa <- summary(x)
@@ -57,12 +57,12 @@ function(x, ...){
    
    old.par <- par(no.readonly = TRUE)
    on.exit(par(old.par)) 
-   x11()
+   dev.new()
    plotmat(x, pos =pos, self.cex=self.cex,
             self.shiftx=self.shiftx,self.shifty=self.shifty,
              box.col=col, main=main, name=m.names)
    
-   x11(7,3.5);par(mfrow=c(1,2))
+   dev.new(width=7,height=3.5);par(mfrow=c(1,2))
    barplot(cosa$stable.stage.distribution, names.arg=m.names, col=col,
            main=paste(main, "\nstable age d."),las=2)
    barplot(cosa$reproductive.value, names.arg=m.names, col=col,
