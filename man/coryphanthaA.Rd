@@ -4,7 +4,7 @@
 \alias{coryphanthaC}
 \docType{data}
 \title{
-Transition matrices of three Coryphantha robbinsorum populations
+Transition Matrices of Three Coryphantha robbinsorum Populations
 }
 \description{
 Transition matrices of three  \emph{Coryphantha robbinsorum} populations.

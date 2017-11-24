@@ -1,15 +1,15 @@
 Package: Rramas
 Type: Package
-Title: Matrix population models
-Version: 0.1-4
-Date: 2014-02-28
+Title: Matrix Population Models
+Version: 0.1-5
+Date: 2017-11-24
 Depends: diagram
 Author: Marcelino de la Cruz
-Maintainer: Marcelino de la Cruz <marcelino.delacruz@upm.es>
-Description: Analyzes and predicts from matrix population models in the way of the Ramas (c) software
+Maintainer: Marcelino de la Cruz <marcelino.delacruz@urjc.es>
+Description: Imitating the 'Ramas' (c) software, analyzes and predicts from matrix population models,  (Caswell 2006) <doi:10.1002/9781118445112.stat07481>.
 License: GPL (>= 2)
 LazyLoad: yes
-Packaged: 2014-01-28 17:09:55 UTC; mc
 NeedsCompilation: no
+Packaged: 2017-11-24 22:09:32 UTC; marcelino
 Repository: CRAN
-Date/Publication: 2014-01-28 19:36:19
+Date/Publication: 2017-11-24 23:30:07 UTC

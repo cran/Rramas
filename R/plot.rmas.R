@@ -1,8 +1,8 @@
 plot.rmas <-
 function (x, sum = TRUE, mean = FALSE, type = "l", harvest=FALSE, ...) 
 {
-        if(length(names(x))>0){ # bifurcación provisional para separar rmas de projectn y de projectn2
-	    if(harvest==FALSE) x<- x$vn else x <-x$harvest # seleciona trayectorai de la población o el manejo
+        if(length(names(x))>0){ # bifurcacion provisional para separar rmas de projectn y de projectn2
+	    if(harvest==FALSE) x<- x$vn else x <-x$harvest # seleciona trayectorai de la poblacion o el manejo
         }
 	 
     nl <- length(x)

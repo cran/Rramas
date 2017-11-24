@@ -4,6 +4,7 @@ export("as.tmatrix", "decline", "estambi", "estdemo", "explosion", "project1", "
 # Import all packages listed as Imports or Depends
 # ToDo: "importFrom" only required functions 
 import(diagram)
+importFrom("grDevices", "dev.new", "rainbow")
 
 ## Registration of S3 methods
 import(stats)

@@ -2,8 +2,8 @@ summary.rmas <-
 function (object, stage = NULL, harvest=FALSE, ...) 
 {
    cosa <- object
-   if(length(names(cosa))>0){ # bifurcación provisional para separar rmas de projectn y de projectn2
-       if(harvest==FALSE) cosa<- cosa$vn else cosa <-cosa$harvest # seleciona trayectorai de la población o el manejo
+   if(length(names(cosa))>0){ # bifurcacion provisional para separar rmas de projectn y de projectn2
+       if(harvest==FALSE) cosa<- cosa$vn else cosa <-cosa$harvest # seleciona trayectorai de la poblacion o el manejo
     }
     nl <- length(cosa)
     time <- dim(cosa[[1]])[2]

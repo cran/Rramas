@@ -7,7 +7,7 @@
 \alias{plot.summary.rmas}
 \alias{summary.rmas}
 \title{
-Demographic projections
+Demographic Projections
 }
 \description{
 
@@ -90,15 +90,16 @@ The \code{summary} and \code{plot.summary} methods will print a table and draw a
 \references{
 
 Akcakaya, H. R., Burgman, M. A. and Ginzburg L.R. 1999. \emph{Applied Population Ecology}. Sinauer.
+
 Caswell, H. 2003. \emph{Matrix Population Models: Construction, Analysis, and Interpretation }. Sinauer. 
 
 }
 \author{
-Marcelino de la Cruz \email{marcelino.delacruz@upm.es}
+Marcelino de la Cruz Rot
 }
 
 \examples{
-   \dontrun{
+   
      data(coryphanthaA)
      coryphanthaA <- as.tmatrix(coryphanthaA)
   
@@ -152,9 +153,9 @@ Marcelino de la Cruz \email{marcelino.delacruz@upm.es}
         summary(p1) 
 	
 	# summarizes and plots harvest history
-	summary(p1, harvest=T)  
+	summary(p1, harvest=TRUE)  
            
-  }
+
 }
 
 \keyword{ algebra }

@@ -6,10 +6,10 @@
 \alias{plot.summary.tmatrix}
 \alias{print.summary.tmatrix}
 \title{
-Population transition matrix
+Population Transition Matrix
 }
 \description{
-Convert a matrix to transition matrix (class tmatrix) and display some of its properties.
+Convert a matrix to transition matrix (class \code{tmatrix}) and display some of its properties.
 }
 \usage{
 as.tmatrix(x, names.st = NULL, ...)
@@ -46,21 +46,21 @@ as.tmatrix(x, names.st = NULL, ...)
 }
 \references{
 Akcakaya, H. R., Burgman, M. A. and Ginzburg L.R. 1999. \emph{Applied Population Ecology}. Sinauer.
+
 Caswell, H. 2003. \emph{Matrix Population Models: Construction, Analysis, and Interpretation }. Sinauer. 
 }
 \author{
-Marcelino de la Cruz \email{marcelino.delacruz@upm.es}
+Marcelino de la Cruz Rot
 }
 
 \examples{
 
-  \dontrun{
   data(coryphanthaA)
   coryphanthaA
   coryphanthaA <- as.tmatrix(coryphanthaA)
   summary(coryphanthaA)
   plot(coryphanthaA) 
-  }
+  
 }
 
 

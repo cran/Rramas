@@ -4,7 +4,7 @@
 \alias{summary.rmas.risk}
 \alias{plot.summary.rmas.risk}
 \title{
-Compute declination/explosion probabilities
+Compute Declination and Explosion Probabilities
 }
 \description{
 Compute declination (or explosion) probabilities for a stage-structured population. From a vector of initial stage abundances and a transition matrix, \code{decline} and \code{explosion} compute respectively the probability that the population size falls below or surpasses some abundance thresholds during a given time interval.
@@ -43,15 +43,16 @@ The methods \code{summary} and \code{plot.summary} summarize the results and pri
 }
 \references{
 Akcakaya, H. R., Burgman, M. A. and Ginzburg L.R. 1999. \emph{Applied Population Ecology}. Sinauer.
+
 Caswell, H. 2003. \emph{Matrix Population Models: Construction, Analysis, and Interpretation }. Sinauer. 
 }
 
 \author{
-Marcelino de la Cruz \email{marcelino.delacruz@upm.es}
+Marcelino de la Cruz Rot
 }
 
 \examples{
-  \dontrun{
+  
      data(coryphanthaA)
      coryphanthaA <- as.tmatrix(coryphanthaA)
      #initial abundances:
@@ -65,7 +66,7 @@ Marcelino de la Cruz \email{marcelino.delacruz@upm.es}
      
      summary(simu20.ds.dec)
      
-     }
+     
 }
 
 
