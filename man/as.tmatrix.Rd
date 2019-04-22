@@ -38,8 +38,7 @@ as.tmatrix(x, names.st = NULL, ...)
 
 \code{summary.tmatrix} prints the main parameters of the transition matrix: 
   the finite rate of increase ("lambda"), the stable stage distribution, the 
-  reproductive value and the sensitivities and elasticities matrices. This function 
-  is equivalent to the "Display" button in Ramas-EcoLab (r) software.
+  reproductive value and the sensitivities and elasticities matrices. 
  
   \code{plot.tmatrix} draw barplots of the stable stage distribution and the 
   reproductive value and plot also a diagram of the life stage cycle.

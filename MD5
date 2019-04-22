@@ -1,4 +1,4 @@
-db2aec2268bb278229015c785918bb3e *DESCRIPTION
+4d9e6932597d9b1519e4322cc43aa13f *DESCRIPTION
 8292b888499b56f7fe353381f0863c49 *NAMESPACE
 51c0cc60bbafb77426f83108b4be4f6c *R/Rramas-internal.R
 a6ddd6fb61780a3660cbb9223bbf23f1 *R/as.tmatrix.R
@@ -21,7 +21,7 @@ fa29c5ed0e09c5b92b2d893d44b76ee3 *data/coryphanthaA.rda
 50bf20be65502b8bbde4390977c17eec *data/coryphanthaB.rda
 2dc671263173435bff9187f15042f514 *data/coryphanthaC.rda
 f793e3bbe8e07310f748e1984dbf491f *inst/CITATION
-facb0f1540c35b39efa2cd818db5d29c *man/as.tmatrix.Rd
+a42da6e21e0ccf4a2268b48f2a876c52 *man/as.tmatrix.Rd
 24dc545cfadcf3c67039f86b19bb10f2 *man/coryphanthaA.Rd
 f0f6735dbaa4fa81b6e3d2e209823836 *man/decline.Rd
-3b3c6eea6520a2805865ce726e6a7a88 *man/projectn.Rd
+200f5a4e7768d634d119d2369f5ae60f *man/projectn.Rd

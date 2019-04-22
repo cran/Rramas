@@ -1,3 +1,4 @@
+\encoding{latin1}
 \name{projectn}
 \alias{projectn}
 \alias{project1}
@@ -87,6 +88,8 @@ The \code{plot} method will draw the demographic trajectory of the population. B
 The \code{summary} and \code{plot.summary} methods will print a table and draw a plot respectively with the maximun, mean + 1 sd, mean, mean - 1 sd and minimum values of population abundance in all the simulations.
 
 }
+
+
 \references{
 
 Akcakaya, H. R., Burgman, M. A. and Ginzburg L.R. 1999. \emph{Applied Population Ecology}. Sinauer.
