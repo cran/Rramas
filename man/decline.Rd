@@ -58,8 +58,8 @@ Marcelino de la Cruz Rot
      #initial abundances:
      v0 <- c(100,0,0)
        
-     # run 1000 simulations of 20 years with  demographic stochasticity:
-     simu20.ds <- projectn(v0=v0, mat=coryphanthaA, time = 20, estdem=TRUE, nrep=1000)
+     # run 500 simulations of 20 years with  demographic stochasticity:
+     simu20.ds <- projectn(v0=v0, mat=coryphanthaA, time = 20, estdem=TRUE, nrep=500)
      
      # compute declination probabilities
      simu20.ds.dec <- decline(simu20.ds)

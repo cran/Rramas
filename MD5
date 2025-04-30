@@ -1,6 +1,5 @@
-4d9e6932597d9b1519e4322cc43aa13f *DESCRIPTION
+df0d5fe79a9236c5db16b51a7d0a8c7d *DESCRIPTION
 8292b888499b56f7fe353381f0863c49 *NAMESPACE
-51c0cc60bbafb77426f83108b4be4f6c *R/Rramas-internal.R
 a6ddd6fb61780a3660cbb9223bbf23f1 *R/as.tmatrix.R
 809c476e4c4f6361f88922304d4768f9 *R/decline.R
 720f9af29111b095de64ace91884fefd *R/estambi.R
@@ -13,7 +12,7 @@ fdd981c0340728a44c308714e85b1cdb *R/plot.summary.rmas.risk.R
 e113adc0a5675eb7f4324d6c9646f33a *R/print.summary.tmatrix.R
 0e82dbbe9b685f7596a7b5053f7e4f60 *R/print.tmatrix.R
 575931c47ba34ac215aa5bdc82107939 *R/project1.R
-bdb6521259b882b0c7fb524164a37ddb *R/projectn.R
+1fd866dfb80e10f474ba058f36cb38c3 *R/projectn.R
 0ef4b62561b55de0daea33b8183a4a38 *R/summary.rmas.R
 34e34e254a39ef91e2a55ba9d87b4ecd *R/summary.rmas.risk.R
 4695a31e2f92fff8233721d0a3854557 *R/summary.tmatrix.R
@@ -23,5 +22,5 @@ fa29c5ed0e09c5b92b2d893d44b76ee3 *data/coryphanthaA.rda
 f793e3bbe8e07310f748e1984dbf491f *inst/CITATION
 a42da6e21e0ccf4a2268b48f2a876c52 *man/as.tmatrix.Rd
 24dc545cfadcf3c67039f86b19bb10f2 *man/coryphanthaA.Rd
-f0f6735dbaa4fa81b6e3d2e209823836 *man/decline.Rd
+52d07cceb8ae571e7ae2077f8b5e38fe *man/decline.Rd
 200f5a4e7768d634d119d2369f5ae60f *man/projectn.Rd
